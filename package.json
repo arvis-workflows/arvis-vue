@@ -1,0 +1,33 @@
+{
+  "name": "@jopemachine/arvis-vue",
+  "version": "0.0.1",
+  "description": "Search for Vue.js API references on vuejs.org",
+  "license": "MIT",
+  "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "arvish",
+    "vue"
+  ],
+  "dependencies": {
+    "@jopemachine/arvish": "^0.1.13"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.17.0"
+  }
+}

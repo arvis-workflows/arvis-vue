@@ -1,0 +1,28 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "category": "Uncategorised",
+  "createdby": "Radimir Bitsov",
+  "name": "vue",
+  "readme": "",
+  "enabled": true,
+  "defaultIcon": "icon.png",
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "vue",
+      "title": "Vue.js API",
+      "subtitle": "",
+      "script_filter": "node index.js \"$1\"",
+      "running_subtext": "Searching...",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "{query}"
+        }
+      ]
+    }
+  ]
+}
