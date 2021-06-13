@@ -1,6 +1,6 @@
 {
   "name": "@jopemachine/arvis-vue",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Search for Vue.js API references on vuejs.org",
   "license": "MIT",
   "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
@@ -19,12 +19,12 @@
   ],
   "keywords": [
     "arvis",
-    "workflow",
+    "arvis-workflow",
     "arvish",
     "vue"
   ],
   "dependencies": {
-    "@jopemachine/arvish": "^0.1.13"
+    "@jopemachine/arvish": "^0.2.4"
   },
   "devDependencies": {
     "ava": "^0.16.0",
