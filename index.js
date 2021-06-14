@@ -1,6 +1,6 @@
 "use strict";
 
-const arvish = require("@jopemachine/arvish");
+const arvish = require("arvish");
 
 const config = {
 	url: "bh4d9od16a-dsn.algolia.net/1/indexes/*/queries",

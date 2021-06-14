@@ -1,10 +1,11 @@
 {
-  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Uncategorised",
   "creator": "Radimir Bitsov",
   "name": "vue",
   "readme": "",
   "enabled": true,
+  "version": "0.0.1",
   "defaultIcon": "icon.png",
   "commands": [
     {
