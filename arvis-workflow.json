@@ -5,7 +5,7 @@
   "name": "vue",
   "readme": "",
   "enabled": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "defaultIcon": "icon.png",
   "commands": [
     {
@@ -13,7 +13,7 @@
       "command": "vue",
       "title": "Vue.js API",
       "subtitle": "",
-      "scriptFilter": "node index.js \"$1\"",
+      "scriptFilter": "node index.js \"{query}\"",
       "runningSubtext": "Searching...",
       "withspace": true,
       "argType": "required",
