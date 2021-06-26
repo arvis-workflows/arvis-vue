@@ -1,6 +1,6 @@
 {
   "name": "arvis-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Search for Vue.js API references on vuejs.org",
   "license": "MIT",
   "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
