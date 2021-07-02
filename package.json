@@ -1,6 +1,6 @@
 {
   "name": "arvis-vue",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Search for Vue.js API references on vuejs.org",
   "license": "MIT",
   "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
@@ -24,9 +24,10 @@
     "vue"
   ],
   "dependencies": {
-    "arvish": ">=0.3.1"
+    "arvish": ">=0.3.6"
   },
   "devDependencies": {
+    "arvish-test": "0.0.2",
     "ava": "^0.16.0",
     "xo": "^0.17.0"
   }
